@@ -78,11 +78,6 @@
      <header class="bg-white shadow-sm border-b border-slate-200">
       <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
         <div class="flex items-center gap-3">
-          <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-            </svg>
-          </div>
           <h1 class="text-xl font-bold text-slate-800">Notes App</h1>
         </div>
         <button @click="openAddForm" class="bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors flex items-center gap-2">

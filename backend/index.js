@@ -5,7 +5,7 @@ const cors = require("cors")
 const app = express() 
 
 app.use(cors({
-    origin: '*', 
+    origin: 'https://testing-tcc.et.r.appspot.com', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     allowedHeaders: ['Content-Type']
 })) 
